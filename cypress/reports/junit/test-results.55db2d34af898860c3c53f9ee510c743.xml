@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="56.9610" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-02-25T11:37:22" tests="0" file="cypress/integration/3-Akademie/8-AKD_Edit_Unternehmen_Rechnung_checkout.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Akademie Edit Environment" timestamp="2022-02-25T11:37:22" tests="1" time="56.9610" failures="0">
+    <testcase name="Akademie Edit Environment Rechnung Checkout clickpath" time="56.9610" classname="Rechnung Checkout clickpath">
+    </testcase>
+  </testsuite>
+</testsuites>

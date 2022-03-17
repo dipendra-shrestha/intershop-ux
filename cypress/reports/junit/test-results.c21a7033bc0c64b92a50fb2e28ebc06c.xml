@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="37.6650" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-02-25T13:18:38" tests="0" file="cypress/integration/4-IndustryService/2-IS_Edit_Checkout_with_transport_costs.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Industry Service Edit Environment" timestamp="2022-02-25T13:18:38" tests="1" time="37.6650" failures="0">
+    <testcase name="Industry Service Edit Environment Checkout with transportation costs" time="37.6650" classname="Checkout with transportation costs">
+    </testcase>
+  </testsuite>
+</testsuites>

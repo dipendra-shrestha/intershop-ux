@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="31.1520" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-02-25T12:34:29" tests="0" file="cypress/integration/1-Global/1-Storefront_available.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Check all storefront status" timestamp="2022-02-25T12:34:29" tests="1" time="31.1520" failures="0">
+    <testcase name="Check all storefront status Gothrough all intershop shops" time="31.1520" classname="Gothrough all intershop shops">
+    </testcase>
+  </testsuite>
+</testsuites>

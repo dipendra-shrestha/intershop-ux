@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-02-18T10:38:04" tests="0" file="cypress/integration/3-Akademie/2-AKD_Live_Rechnung_checkout.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Akademie Live Environment" timestamp="2022-02-18T10:38:04" tests="1" time="0.0000" failures="1">
+    <testcase name="Akademie Live Environment Rechnung Checkout clickpath" time="0.0000" classname="Rechnung Checkout clickpath">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` could not be issued because this element is currently animating:
+
+`&lt;button type=&quot;submit&quot; name=&quot;addProduct&quot; class=&quot;btn btn-fullwidth btn-primary&quot; title=&quot;In den Warenkorb&quot; data-testing-id=&quot;addToCartButton&quot; data-tracking-productdetail-cta-click=&quot;&quot;&gt;Jetzt b...&lt;/button&gt;`
+
+You can fix this problem by:
+  - Passing `{force: true}` which disables all error checking
+  - Passing `{waitForAnimations: false}` which disables waiting on animations
+  - Passing `{animationDistanceThreshold: 20}` which decreases the sensitivity
+
+https://on.cypress.io/element-is-animating" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` could not be issued because this element is currently animating:
+
+`<button type="submit" name="addProduct" class="btn btn-fullwidth btn-primary" title="In den Warenkorb" data-testing-id="addToCartButton" data-tracking-productdetail-cta-click="">Jetzt b...</button>`
+
+You can fix this problem by:
+  - Passing `{force: true}` which disables all error checking
+  - Passing `{waitForAnimations: false}` which disables waiting on animations
+  - Passing `{animationDistanceThreshold: 20}` which decreases the sensitivity
+
+https://on.cypress.io/element-is-animating
+    at $Cy.ensureElementIsNotAnimating (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:163773:76)
+    at ensureNotAnimating (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:150406:6)
+    at runAllChecks (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:150530:9)
+    at retryActionability (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:150562:16)
+    at tryCatcher (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:13022:23)
+    at Function.Promise.attempt.Promise.try (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:10296:29)
+    at whenStable (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:168719:63)
+    at https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:168216:14
+    at tryCatcher (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:13022:23)
+    at Promise._settlePromiseFromHandler (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:10957:31)
+    at Promise._settlePromise (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:11014:18)
+    at Promise._settlePromise0 (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:11059:10)
+    at Promise._settlePromises (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:11139:18)
+    at Promise._fulfill (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:11083:18)
+    at https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:12697:46
+From Your Spec Code:
+    at Context.eval (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/tests?p=cypress\integration\3-Akademie\2-AKD_Live_Rechnung_checkout.spec.js:112:57)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

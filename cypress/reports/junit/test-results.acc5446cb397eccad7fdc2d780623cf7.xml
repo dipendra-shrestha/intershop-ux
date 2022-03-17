@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="37.3970" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-02-22T13:53:56" tests="0" file="cypress/integration/4-IndustryService/1-IS_Edit_Rechnung_checkout.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Industry Service Edit Environment" timestamp="2022-02-22T13:53:56" tests="1" time="37.3970" failures="0">
+    <testcase name="Industry Service Edit Environment Rechnung Checkout clickpath" time="37.3970" classname="Rechnung Checkout clickpath">
+    </testcase>
+  </testsuite>
+</testsuites>

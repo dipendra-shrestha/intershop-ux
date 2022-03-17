@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-02-25T11:17:15" tests="0" file="cypress/integration/1-Global/1-Storefront_available.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Check all storefront status" timestamp="2022-02-25T11:17:15" tests="1" time="0.0000" failures="1">
+    <testcase name="Check all storefront status Gothrough all intershop shops" time="0.0000" classname="Gothrough all intershop shops">
+      <failure message="`cy.request()` timed out waiting `60000ms` for a response from your server.
+
+The request we sent was:
+
+Method: GET
+URL: https://int-live-ish22-tuevs.fse.intershop.de/INTERSHOP/web/WFS/Akademie-DE-Site
+
+No response was received within the timeout.
+
+https://on.cypress.io/request" type="CypressError"><![CDATA[CypressError: `cy.request()` timed out waiting `60000ms` for a response from your server.
+
+The request we sent was:
+
+Method: GET
+URL: https://int-live-ish22-tuevs.fse.intershop.de/INTERSHOP/web/WFS/Akademie-DE-Site
+
+No response was received within the timeout.
+
+https://on.cypress.io/request
+    at http://localhost:50492/__cypress/runner/cypress_runner.js:160611:78
+    at tryCatcher (http://localhost:50492/__cypress/runner/cypress_runner.js:13022:23)
+    at http://localhost:50492/__cypress/runner/cypress_runner.js:8144:41
+    at tryCatcher (http://localhost:50492/__cypress/runner/cypress_runner.js:13022:23)
+    at Promise._settlePromiseFromHandler (http://localhost:50492/__cypress/runner/cypress_runner.js:10957:31)
+    at Promise._settlePromise (http://localhost:50492/__cypress/runner/cypress_runner.js:11014:18)
+    at Promise._settlePromise0 (http://localhost:50492/__cypress/runner/cypress_runner.js:11059:10)
+    at Promise._settlePromises (http://localhost:50492/__cypress/runner/cypress_runner.js:11135:18)
+    at _drainQueueStep (http://localhost:50492/__cypress/runner/cypress_runner.js:7729:12)
+    at _drainQueue (http://localhost:50492/__cypress/runner/cypress_runner.js:7722:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:50492/__cypress/runner/cypress_runner.js:7738:5)
+    at Async.drainQueues (http://localhost:50492/__cypress/runner/cypress_runner.js:7608:14)
+From Your Spec Code:
+    at Context.eval (http://localhost:50492/__cypress/tests?p=cypress\integration\1-Global\1-Storefront_available.spec.js:116:7)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

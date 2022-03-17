@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.0360" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-02-18T09:30:54" tests="0" file="cypress/integration/3-Akademie/3-AKD_Product_Search.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Akademie Product Search" timestamp="2022-02-18T09:30:54" tests="1" time="16.0360" failures="0">
+    <testcase name="Akademie Product Search Product search" time="16.0360" classname="Product search">
+    </testcase>
+  </testsuite>
+</testsuites>

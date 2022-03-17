@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-02-25T11:29:09" tests="0" file="cypress/integration/3-Akademie/1-AKD_Edit_Rechnung_checkout.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Akademie Edit Environment" timestamp="2022-02-25T11:29:09" tests="1" time="0.0000" failures="1">
+    <testcase name="Akademie Edit Environment Rechnung Checkout clickpath" time="0.0000" classname="Rechnung Checkout clickpath">
+      <failure message="`cy.visit()` failed trying to load:
+
+https://int-edit-ish22-tuevs.fse.intershop.de/INTERSHOP/web/WFS/Akademie-DE-Site
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  &gt; Error: ESOCKETTIMEDOUT
+
+Common situations why this would fail:
+  - you don&apos;t have internet access
+  - you forgot to run / boot your web server
+  - your web server isn&apos;t accessible
+  - you have weird network configuration settings on your computer" type="CypressError"><![CDATA[CypressError: `cy.visit()` failed trying to load:
+
+https://int-edit-ish22-tuevs.fse.intershop.de/INTERSHOP/web/WFS/Akademie-DE-Site
+
+We attempted to make an http request to this URL but the request failed without a response.
+
+We received this error at the network level:
+
+  > Error: ESOCKETTIMEDOUT
+
+Common situations why this would fail:
+  - you don't have internet access
+  - you forgot to run / boot your web server
+  - your web server isn't accessible
+  - you have weird network configuration settings on your computer
+    at http://localhost:50492/__cypress/runner/cypress_runner.js:159252:82
+    at visitFailedByErr (http://localhost:50492/__cypress/runner/cypress_runner.js:158602:12)
+    at http://localhost:50492/__cypress/runner/cypress_runner.js:159251:11
+    at tryCatcher (http://localhost:50492/__cypress/runner/cypress_runner.js:13022:23)
+    at Promise._settlePromiseFromHandler (http://localhost:50492/__cypress/runner/cypress_runner.js:10957:31)
+    at Promise._settlePromise (http://localhost:50492/__cypress/runner/cypress_runner.js:11014:18)
+    at Promise._settlePromise0 (http://localhost:50492/__cypress/runner/cypress_runner.js:11059:10)
+    at Promise._settlePromises (http://localhost:50492/__cypress/runner/cypress_runner.js:11135:18)
+    at _drainQueueStep (http://localhost:50492/__cypress/runner/cypress_runner.js:7729:12)
+    at _drainQueue (http://localhost:50492/__cypress/runner/cypress_runner.js:7722:9)
+    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (http://localhost:50492/__cypress/runner/cypress_runner.js:7738:5)
+    at Async.drainQueues (http://localhost:50492/__cypress/runner/cypress_runner.js:7608:14)
+From Your Spec Code:
+    at Context.eval (http://localhost:50492/__cypress/tests?p=cypress\integration\3-Akademie\1-AKD_Edit_Rechnung_checkout.spec.js:103:8)
+
+From Node.js Internals:
+  Error: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\zhmud-al\AppData\Local\Cypress\Cache\9.5.0\Cypress\resources\app\node_modules\@cypress\request\request.js:808:19)
+      at Object.onceWrapper (node:events:513:28)
+      at ClientRequest.emit (node:events:394:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:761:9)
+      at Object.onceWrapper (node:events:513:28)
+      at TLSSocket.emit (node:events:406:35)
+      at TLSSocket.Socket._onTimeout (node:net:486:8)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+  ]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

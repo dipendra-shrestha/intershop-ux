@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-02-18T15:10:26" tests="0" file="cypress/integration/2-DatenblattService/7-DBS_Live_CreditCartzahlung_checkout.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="DBS Live Environment" timestamp="2022-02-18T15:10:26" tests="1" time="0.0000" failures="1">
+    <testcase name="DBS Live Environment Rechnung Checkout clickpath" time="0.0000" classname="Rechnung Checkout clickpath">
+      <failure message="Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`&lt;button type=&quot;submit&quot; name=&quot;addProduct&quot; class=&quot;btn btn-primary btn-fullwidth&quot; title=&quot;In den Warenkorb&quot; data-testing-id=&quot;addToCartButton&quot; data-tracking-productdetail-cta-click=&quot;&quot;&gt;Datenbl...&lt;/button&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 4050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`<button type="submit" name="addProduct" class="btn btn-primary btn-fullwidth" title="In den Warenkorb" data-testing-id="addToCartButton" data-tracking-productdetail-cta-click="">Datenbl...</button>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:164011:76)
+    at ensureDescendents (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:150209:8)
+    at possiblyScrollMultipleTimes (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:150316:22)
+    at scrollContainers (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:150339:16)
+    at ensureDescendentsAndScroll (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:150343:14)
+    at ensureElIsNotCovered (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:150348:5)
+    at runAllChecks (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:150538:52)
+    at retryActionability (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:150562:16)
+    at tryCatcher (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:13022:23)
+    at Function.Promise.attempt.Promise.try (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:10296:29)
+    at whenStable (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:168719:63)
+    at https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:168216:14
+    at tryCatcher (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:13022:23)
+    at Promise._settlePromiseFromHandler (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:10957:31)
+    at Promise._settlePromise (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:11014:18)
+    at Promise._settlePromise0 (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/runner/cypress_runner.js:11059:10)
+From Your Spec Code:
+    at Context.eval (https://pre-live-ish22-tuevs.fse.intershop.de/__cypress/tests?p=cypress\integration\2-DatenblattService\7-DBS_Live_CreditCartzahlung_checkout.spec.js:112:51)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

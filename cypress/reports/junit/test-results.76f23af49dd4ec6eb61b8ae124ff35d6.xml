@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="44.8730" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-02-18T09:23:26" tests="0" file="cypress/integration/2-DatenblattService/4-DBS_Edit_SofortUberweisung_checkout.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="DBS Edit Environment" timestamp="2022-02-18T09:23:26" tests="1" time="44.8730" failures="0">
+    <testcase name="DBS Edit Environment Rechnung Checkout clickpath" time="44.8730" classname="Rechnung Checkout clickpath">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,10 @@
+{
+  "projectId": "4y3xkg",
+  "chromeWebSecurity": false,
+  "reporter": "mocha-junit-reporter",
+  "reporterOptions": {
+  "mochaFile": "cypress/reports/junit/test-results.[hash].xml",
+  "testsuitesTitle": false
+  }
+
+}
