@@ -22,7 +22,7 @@ pipeline {
         stage('Build') {
             steps {
                 dir("${env.WORKSPACE}"){
-                bat "npm run cy:run"    
+                bat "npx cypress run --record --key 34ae60c6-c054-4bd2-be8b-70be138a5796"    
                 }
             }
         }        
